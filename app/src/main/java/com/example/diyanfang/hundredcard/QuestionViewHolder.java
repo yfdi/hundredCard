@@ -40,6 +40,4 @@ public class QuestionViewHolder extends RecyclerView.ViewHolder {
             }
         });
     }
-
-
 }

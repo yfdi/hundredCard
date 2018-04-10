@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -42,7 +43,6 @@ public class MainActivity extends AppCompatActivity {
         questions.add(new Question(R.string.middle_east,R.string.question_mideast,R.drawable.mideast, true));
         questions.add(new Question(R.string.oceans,R.string.question_oceans,R.drawable.oceans, true));
         questions.add(new Question(R.string.americas,R.string.question_americas,R.drawable.americas, true));
-
     }
 
     @Override
@@ -87,7 +87,6 @@ public class MainActivity extends AppCompatActivity {
                 return new Question(R.string.americas,R.string.question_americas,R.drawable.americas, true);
         }
     }
-
 
 
 }
